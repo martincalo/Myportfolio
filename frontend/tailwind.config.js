@@ -1,0 +1,48 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        beige: '#F5F5DC',
+        ivory: '#FFFFF0',
+        cream: '#FFFDD0',
+        warmBrown: '#8B4513',
+        taupe: '#D2B48C',
+        slateGray: '#708090',
+        mutedOrange: '#FF7F50',
+        dustyRose: '#D291BC',
+        oliveGreen: '#556B2F',
+        navyBlue: '#001F3F',
+        darkCharcoal: '#333333',
+        coolGray: '#808080',
+        softPink: '#F1C6D8',
+        lightLavender: '#D8B7FF',
+        peach: '#FFDAB9',
+        lavender: '#E6E6FA',
+        skyBlue: '#87CEEB',
+        forestGreen: '#228B22',
+        coral: '#FF7F50',
+        goldenrod: '#DAA520',
+        periwinkle: '#CCCCFF',
+        mintGreen: '#98FF98',
+        deepPurple: '#6A0DAD',
+        royalBlue: '#4169E1',
+        salmon: '#FA8072',
+        richGold: '#B38B00',
+        warmGray: '#A89F91',
+        plum: '#8E4585',
+        tangerine: '#FF6347',
+        steelBlue: '#4682B4',
+        aquaMarine: '#7FFFD4',
+        rubyRed: '#E0115F',
+        midnightBlue: '#191970',
+        cranberry: '#9E1B32',
+        paleTurquoise: '#AFEEEE',
+        
+      },
+    },
+  },
+  plugins: [],
+}
+
