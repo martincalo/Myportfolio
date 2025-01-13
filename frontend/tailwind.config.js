@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors: {
         beige: '#F5F5DC',
+        whitebeige: '#FCFBF3',
+        darkbeige: '#f3eded',
+        whisperbeige: '#FBF6F1',
+        forest: '#183630',
         ivory: '#FFFFF0',
         cream: '#FFFDD0',
         warmBrown: '#8B4513',
@@ -40,6 +44,25 @@ module.exports = {
         cranberry: '#9E1B32',
         paleTurquoise: '#AFEEEE',
         
+      },
+
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        oxanium: ['"Oxanium"', 'serif'],
+        arial: ['Arial', 'sans-serif'],
+        verdana: ['Verdana', 'sans-serif'],
+        helvetica: ['Helvetica', 'sans-serif'],
+        tahoma: ['Tahoma', 'sans-serif'],
+        trebuchet: ['"Trebuchet MS"', 'sans-serif'],
+        gill: ['"Gill Sans"', 'sans-serif'],
+        times: ['"Times New Roman"', 'serif'],
+        georgia: ['Georgia', 'serif'],
+        palatino: ['"Palatino Linotype"', 'serif'],
+        antiquabook: ['"Book Antiqua"', 'serif'],
+        garamond: ['Garamond', 'serif'],
+        couriern: ['"Courier New"', 'monospace'],
+        lucida: ['"Lucida Console"', 'monospace'],
+        consolas: ['Consolas', 'monospace'],
       },
     },
   },
