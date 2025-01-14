@@ -136,7 +136,6 @@ function App() {
                 width="640"
                 height="360"
                 allow="autoplay"
-                title="ABB Robot Video"
               ></iframe>
             </div>
             
