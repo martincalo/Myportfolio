@@ -70,7 +70,7 @@ function App() {
             {/* Add the image here */}
             <div className="flex justify-center mt-8 w-full">
               <img
-                src="/images/Technology.jpeg"
+                src={`${process.env.PUBLIC_URL}/images/Technology.jpeg`}
                 alt="Your Image"
                 className="w-[65.25rem] h-auto rounded-lg object-cover"
               />
@@ -82,7 +82,7 @@ function App() {
             {/* ABB Robot */}
             <div className="flex justify-center md:justify-center md:w-1/2">
               <img
-                src="/images/MES_Transparent.png"
+                src={`${process.env.PUBLIC_URL}/images/MES_Transparent.png`}
                 alt="Big data"
                 className="w-[40.25rem] h-auto rounded-lg object-cover"
               />
@@ -119,7 +119,7 @@ function App() {
             {/* Image */}
             <div className="flex justify-center md:justify-center md:w-1/2">
               <img
-                src="/images/Tesla.png"
+                src={`${process.env.PUBLIC_URL}/images/Tesla.png`}
                 alt="Tesla Project"
                 className="w-[30.25rem] h-auto rounded-lg object-cover"
               />
@@ -132,13 +132,13 @@ function App() {
             {/* ABB Robot */}
             <div className="flex justify-center md:justify-center md:w-1/2">
             <iframe
-              src="https://drive.google.com/file/d/1m9A5VepV9eT5bkpRyvlpjneV0z-Q0C5F/preview"
+              src="https://drive.google.com/file/d/1m9A5VepV9eT5bkpRyvlpjneV0z-Q0C5F/view?usp=sharing"
               width="640"
-              height="480"
+              height="360"
               allow="autoplay"
             ></iframe>
             </div>
-
+            
             {/* Text */}
             <div className="text-center md:text-center p-10 mt-0 mb-0 md:w-1/2">
               <p className="text-lg md:text-xl font-oxanium mb-0">
@@ -162,7 +162,7 @@ function App() {
             {/* Image */}
             <div className="flex justify-center md:justify-center md:w-1/2">
               <img
-                src="/images/Big data.png"
+                src={`${process.env.PUBLIC_URL}/images/Big data.png`}
                 alt="Big data"
                 className="w-[30.25rem] h-auto rounded-lg object-cover"
               />
@@ -180,7 +180,7 @@ function App() {
             {/* Image */}
             <div className="flex justify-center md:justify-center md:w-1/2">
               <img
-                src="/images/Water.png"
+                src={`${process.env.PUBLIC_URL}/images/Water.png`}
                 alt="Big data"
                 className="w-[30.25rem] h-auto rounded-lg object-cover"
               />
