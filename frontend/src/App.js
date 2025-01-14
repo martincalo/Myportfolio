@@ -196,7 +196,6 @@ function App() {
               <p className="text-xl font-oxanium">Martin Calo</p>
               <p className="text-lg font-oxanium">Berlin</p>
               <p className="text-lg font-oxanium">2025</p>
-              <p className="text-lg font-oxanium">2025</p>
             </div>
           </footer>
             
