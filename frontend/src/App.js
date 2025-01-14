@@ -142,7 +142,7 @@ function App() {
             {/* Text */}
             <div className="text-center md:text-center p-10 mt-0 mb-0 md:w-1/2">
               <p className="text-lg md:text-xl font-oxanium mb-0">
-              Managed complex automation projects in the automotive sector, overseeing the design, development, programming, implementation, and control of robotic cells.
+              managed complex automation projects in the automotive sector, overseeing the design, development, programming, implementation, and control of robotic cells.
               Extensively utilized a range of automation technologies, including ABB, Yaskawa, and Fanuc robots, as well as Omron and Siemens PLCs, Servo drives, and HMIs, to deliver high-performing solutions.
               Proactively collaborated with mechanical and electrical stakeholders during the design phase, leveraging offline simulations to identify and mitigate potential issues, ensuring smooth project execution and reduced risks. Played a key
               role in commissioning start-ups at client factories across multiple countries, ensuring successful implementation and high client satisfaction. In this video you can check it out.
