@@ -131,12 +131,21 @@ function App() {
 
             {/* ABB Robot */}
             <div className="flex justify-center md:justify-center md:w-1/2">
-              <iframe
-                src="https://drive.google.com/uc?id=1m9A5VepV9eT5bkpRyvlpjneV0z-Q0C5F"
-                width="640"
-                height="360"
-                allow="autoplay"
-              ></iframe>
+            <iframe 
+            width="640" 
+            height="360" 
+            src="https://www.youtube.com/embed/r4plTCiYPn4?si=LITTYZJvFNAzc1jH" 
+            title="" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+            style={{
+              borderRadius: "15px", // Adjust the radius as needed
+              overflow: "hidden",
+            }}
+            >
+            </iframe>
             </div>
             
             {/* Text */}
@@ -145,7 +154,7 @@ function App() {
               Managed complex automation projects in the automotive sector, overseeing the design, development, programming, implementation, and control of robotic cells.
               Extensively utilized a range of automation technologies, including ABB, Yaskawa, and Fanuc robots, as well as Omron and Siemens PLCs, Servo drives, and HMIs, to deliver high-performing solutions.
               Proactively collaborated with mechanical and electrical stakeholders during the design phase, leveraging offline simulations to identify and mitigate potential issues, ensuring smooth project execution and reduced risks. Played a key
-              role in commissioning start-ups at client factories across multiple countries, ensuring successful implementation and high client satisfaction. In this video you can check it out.
+              role in commissioning start-ups at client factories across multiple countries, ensuring successful implementation and high client satisfaction.
               </p>
             </div>
             
