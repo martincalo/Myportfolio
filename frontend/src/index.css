@@ -5,3 +5,126 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* Mobile-only responsive improvements (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  /* Force mobile container to use full width */
+  body {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+  }
+  
+  /* Fix mobile padding for sections */
+  section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Override Tailwind classes for mobile */
+  .p-20 {
+    padding: 1rem !important;
+  }
+  
+  .p-10 {
+    padding: 0.75rem !important;
+  }
+  
+  .p-6 {
+    padding: 0.5rem !important;
+  }
+  
+  /* Make images responsive on mobile */
+  .w-\[65\.25rem\] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .w-\[40\.25rem\] {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+  
+  .w-\[30\.25rem\] {
+    width: 100% !important;
+    max-width: 280px !important;
+  }
+  
+  /* Reduce margins on mobile */
+  .mt-20 {
+    margin-top: 1rem !important;
+  }
+  
+  .mb-20 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .mt-8 {
+    margin-top: 0.5rem !important;
+  }
+  
+  /* Make iframe responsive */
+  iframe {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: 180px !important;
+  }
+  
+  /* Ensure text uses full width */
+  p {
+    width: 100% !important;
+    text-align: left !important;
+  }
+  
+  /* Add margin between stacked mobile content */
+  .flex-col > div:not(:last-child) {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  /* Fix header spacing on mobile */
+  header {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Make sure text doesn't get cut off */
+  * {
+    box-sizing: border-box !important;
+  }
+  
+  /* Mobile project ordering - Image/Video first, then text */
+  /* Target image/video containers - they have 'flex justify-center' classes */
+  section#projects .flex-col > div.flex.justify-center {
+    order: 1 !important;
+    margin-bottom: 1.5rem !important; /* Add consistent spacing after images/videos */
+  }
+  
+  /* Target text containers - they have text alignment classes */
+  section#projects .flex-col > div[class*="text-center"],
+  section#projects .flex-col > div[class*="text-left"] {
+    order: 2 !important;
+    margin-bottom: 0 !important; /* Remove bottom margin from text containers */
+  }
+  
+  /* More specific targeting for text containers */
+  section#projects .flex-col > .text-center,
+  section#projects .flex-col > .text-left {
+    order: 2 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  /* Better spacing between project sections on mobile */
+  section#projects > div:not(:last-child) {
+    margin-bottom: 3rem !important;
+  }
+  
+  /* Footer text centering for mobile */
+  footer {
+    text-align: center !important;
+  }
+  
+  footer p {
+    text-align: center !important;
+  }
+}

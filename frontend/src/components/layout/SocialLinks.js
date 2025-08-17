@@ -16,7 +16,8 @@ const SocialLinks = () => {
       >
         <i className="fab fa-linkedin-in text-xl"></i>
       </a>
-      <a
+      {/* GitHub icon hidden per user request */}
+      {/* <a
         href="https://github.com/martincalo/Myportfolio"
         target="_blank"
         rel="noopener noreferrer"
@@ -24,7 +25,7 @@ const SocialLinks = () => {
         aria-label="GitHub"
       >
         <i className="fab fa-github text-xl"></i>
-      </a>
+      </a> */}
     </div>
   );
 };
